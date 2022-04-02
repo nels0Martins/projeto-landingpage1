@@ -1,0 +1,32 @@
+@media screen and (max-width: 739px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    form {
+        margin: auto;
+        width: 100%;
+    }
+
+    input {
+        align-self: center; /*O elemento ira alinhar ele mesmo ao meio*/
+    }
+
+    img {
+        display: none;
+    }
+
+    ul {
+        text-align: center;
+    }
+} 
+
+/*Essas configurações serão aplicadas quando a tela que estiver apresentando o site tiver menos de 760px*/
